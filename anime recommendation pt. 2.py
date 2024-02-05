@@ -1,5 +1,4 @@
-# this program creates a dictionary of different animes based on their genre, then prompts the user to enter genres that they like
-# then recommends a desired number of animes based on their genre selection and where they can watch it
+
 import anime_recommending
 # very long test case of animes with their matching genres
 genres = {'Comedy' : ['Saiki K', 'One Punch Man', 'Gintama', 'Shimoneta', 'Assassination Classroom', "Haven't You Heard? I'm Sakamoto", 'Ghost Stories', "Monthly Girls' Nozaki-kun",
