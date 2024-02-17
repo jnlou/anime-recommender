@@ -36,6 +36,8 @@ def get_anime_amount(genres):
     while True:
          try:
               number = int(input('How many animes would you like recommended to you?: '))
+              # If the number chosen is greater than the the absoulte minimum of an iterator of all number of animes,
+              # then the lowest number is given
               if number > min(len(i) for i in genres.values()):
                    number = min(len(i) for i in genres.values())
               return number
